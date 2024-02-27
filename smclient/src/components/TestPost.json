@@ -1,0 +1,11 @@
+{
+    "topic": "Name",
+    "posts": [{
+        "title": "Test1",
+        "content": "Blooblugh"
+    },
+    {
+        "title": "Test2",
+        "content": "Wooo"
+    }]
+}

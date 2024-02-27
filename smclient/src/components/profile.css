@@ -1,0 +1,69 @@
+.header-h1{
+    color: rgb(53, 55, 172);
+    font-family: "Gill Sans", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin:auto;
+}
+
+* {
+    box-sizing:  border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.Profile-header {
+    background-color: #375ca5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .navbar{
+    background-color: rgb(45, 148, 148);
+    border-radius: 15px;
+    border-style: hidden;
+    padding: 18px; 
+    text-align: center;
+    width: auto;
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+
+
+.avatar {
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: rgb(196, 196, 26);
+    border-style: outset;
+    
+}
+
+.container-about{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border-style: hidden;
+    padding: 18px; 
+    text-align: center;
+}
+
+.container-about>p{
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+  
+
+}
+.container-about>h1{
+    font-family: 'Ruda', sans-serif;
+}
